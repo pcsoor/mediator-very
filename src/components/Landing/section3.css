@@ -1,0 +1,59 @@
+.step-content-wrapper > div {
+    max-width: 470px;
+    height: 250px;
+}
+
+
+.step-line {
+    width: 4px;
+    background: #F9FCEE;
+    display: grid;
+    grid-template-rows: 250px 250px 250px 250px 250px;
+    justify-content: center;
+
+    
+}
+.step-line .dot {
+    width: 142px;
+    height: 142px;
+
+    @media (max-width: 1130px) {
+        width: 60px;
+        height: 60px;   
+    }
+}
+
+.step-line .inner-dot {
+    width: 8px;
+    height: 8px;
+    background: var(--primary);
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .step-content-wrapper {
+        padding-left: 40px;
+        flex-wrap: wrap;
+        display: flex;
+
+        > div {
+            align-items: start;
+            justify-content: start;
+            width: auto!important;
+            height: 320px!important;
+        }
+    }
+
+    .step-line {
+        align-items: start;
+        grid-template-rows: 320px 320px 320px 320px 320px;
+
+        > div {
+            margin-top: -10px;
+        }
+    }
+
+}
+
+
+

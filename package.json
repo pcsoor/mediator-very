@@ -1,0 +1,39 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "0BSD",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "tw:build": "tailwindcss build ./src/styles/global.css -o ./public/styles/global.css",
+    "tw:prod": "cross-env NODE_ENV=production postcss build ./src/styles/global.css -o ./public/styles/global.css",
+    "tw:watch": "onchange \"tailwind.config.js\" \"src/**/*.css\" -- npm run tw:build"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^2.1.4",
+    "gatsby": "^5.12.3",
+    "gatsby-plugin-anchor-links": "^1.2.1",
+    "gatsby-plugin-styled-components": "^6.12.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "gatsby-plugin-postcss": "^6.12.0",
+    "postcss": "^8.4.29",
+    "tailwindcss": "^3.3.3"
+  }
+}
