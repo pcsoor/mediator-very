@@ -1,6 +1,6 @@
 import React from 'react';
 import "./header.css";
-import Portrait from '../../images/portrait.jpg'
+import { StaticImage } from "gatsby-plugin-image"
 
 
 const Header = () => {
@@ -10,7 +10,7 @@ const Header = () => {
         <div>
           <div className='lg:flex justify-between items-center'>
             <div className='portrait-image lg:order-2'>
-              <img src={Portrait} alt='Dr. Kaszó Éva' />
+              <StaticImage src="../../images/portrait.jpg" alt="Dr. Kaszó Éva" />
             </div>
 
             <div className='lg:order-first mt-10 lg:mt-0'>

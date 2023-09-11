@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 import "./nav.css";
-import ArrowDown from "../../images/arrow_down.png";
+import { StaticImage } from "gatsby-plugin-image"
 
 const Nav = () => {
     const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -35,7 +35,7 @@ const Nav = () => {
                             <li className="relative nav-link">
                                 <div className="flex justify-between items-center">
                                     <a href="#">Mediáció</a>
-                                    <img src={ArrowDown} className="navbar-arrow block lg:hidden" />
+                                    <StaticImage src='../../images/arrow_down.png' className="navbar-arrow block lg:hidden" />
                                 </div>
                                 
                                 <div className="dropdown relative lg:absolute">
@@ -56,7 +56,7 @@ const Nav = () => {
                             <li className="relative nav-link">
                                 <div className="flex justify-between items-center">
                                     <a href="#">További területek</a>
-                                    <img src={ArrowDown} className="navbar-arrow block lg:hidden" />
+                                    <StaticImage src='../../images/arrow_down.png' className="navbar-arrow block lg:hidden" />
                                 </div>
                                 
                                 <div className="dropdown relative lg:absolute">

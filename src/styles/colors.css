@@ -5,3 +5,7 @@
 .bg-secondary {
     background-color: var(--secondary);
 }
+
+.bg--primary {
+    background-color: #F9FCEE;
+}

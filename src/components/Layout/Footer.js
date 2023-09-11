@@ -4,7 +4,7 @@ import VerycreativesLogo from "../../images/verycreatives.svg"
 
 const Footer = () => {
   return (
-    <div className='container mx-auto max-w-[1170px] px-3 lg:px-0'>
+    <div className='container mx-auto max-w-[1170px] px-3 lg:px-0 pt-5'>
       <div className='lg:flex justify-between'>
         <div className='clear-right mb-10 lg:mb-0'>
           <h2 className='h2'>Dr. Kaszó Éva</h2>
