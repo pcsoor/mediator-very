@@ -28,9 +28,9 @@ const Header = () => {
           
           <div className='flex flex-col lg:flex-row justify-center mt-[100px]'>
             <span className='quotation-marks'>”</span>
-            <h2 className='h2 max-w-[670px]'>
+            <h3 className='h3 max-w-[670px]'>
               Légy nyitott az emberek gondolataira, hogy segítsd a közöttük fennálló konfliktusok eredményes rendezését.
-            </h2>
+            </h3>
             <span className='quotation-marks'>„</span>
           </div>
         </div>
