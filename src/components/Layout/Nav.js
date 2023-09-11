@@ -22,7 +22,7 @@ const Nav = () => {
                 <div className="container mx-auto py-2.5 lg:flex items-center justify-between max-w-[1170px] px-5">
                     <div className="flex items-center justify-between w-full">
                         <AnchorLink to="/" title="Dr. Kaszó Éva">
-                            <h1 className="h1">Dr. Kaszó Éva</h1>
+                            <h2 className="h2">Dr. Kaszó Éva</h2>
                         </AnchorLink>
 
                         <button className="btn-nav" id="js-nav-btn" onClick={handleClick}>

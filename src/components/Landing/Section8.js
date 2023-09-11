@@ -11,7 +11,7 @@ const Section8 = () => {
                 </div>
 
                 <div className='max-w-[470px] lg:order-1'>
-                    <h2 className='h2 mb-10' id='gazdasagi-vitak'>Gazdasági viták</h2>
+                    <h3 className='h3 mb-10' id='gazdasagi-vitak'>Gazdasági viták</h3>
 
                     <p>
                         A gazdasági élet számos konfliktust gerjeszt, melyeket eredménytelen tárgyalást követően peres eljárás során próbálnak rendezni a felek.
@@ -19,7 +19,7 @@ const Section8 = () => {
                 </div>            
             </div>
 
-            <h2 className='h2 mt-12 max-w-[470px]'>Miért előnyösebb mediáció útján rendezni a vitát</h2>
+            <h3 className='h3 mt-12 max-w-[470px]'>Miért előnyösebb mediáció útján rendezni a vitát</h3>
 
             <div className='lg:flex'>
                 <div className='max-w-[470px] mr-24'>

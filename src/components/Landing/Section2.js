@@ -9,9 +9,9 @@ const Section2 = () => {
                 <StaticImage src='../../images/section-2.png' alt="Milyen esetben segít a mediátor?" className='md:mr-4' />
 
                 <div className='max-w-[570px] pb-10'>
-                    <h1 className='h1 pt-5  pb-5 md:pb-14' id='milyen-esetekben-segit'>
+                    <h2 className='h2 pt-5  pb-5 md:pb-14' id='milyen-esetekben-segit'>
                         Milyen esetben segít a mediátor?
-                    </h1>
+                    </h2>
 
                     <p>
                         A meidáció során nemcsak megállapodás elérése a cél, segít a kommunikáció megváltoztatásában, a bizalom felépítésében vagy újraépítésében, a problémák közös megoldásában, a teljesség igénye nélkül az alábbi esetekben:

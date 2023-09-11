@@ -7,8 +7,8 @@ const Footer = () => {
     <div className='container mx-auto max-w-[1170px] px-3 lg:px-0 pt-5'>
       <div className='lg:flex justify-between'>
         <div className='clear-right mb-10 lg:mb-0'>
-          <h2 className='h2'>Dr. Kaszó Éva</h2>
-          <h3 className='subtitle-2'>Keressen bizalommal</h3>
+          <h3 className='h3'>Dr. Kaszó Éva</h3>
+          <h4 className='subtitle-2'>Keressen bizalommal</h4>
         </div>
 
         <div className='lg:flex float-left'>

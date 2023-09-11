@@ -5,9 +5,9 @@ const Contact = () => {
   return (
     <div className='bg--primary'>
       <div className='container mx-auto max-w-[1170px] px-5 pt-10 pb-16'>
-          <h1 className='h1 pb-14' id='contact'>
+          <h2 className='h2 pb-14' id='contact'>
               Kontakt
-          </h1>
+          </h2>
         
           <div className='lg:flex justify-between'>
             <div>

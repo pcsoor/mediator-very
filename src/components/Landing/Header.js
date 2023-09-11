@@ -18,7 +18,7 @@ const Header = () => {
                 Mediátor
               </span>
 
-              <h1 className='display pt-3 pb-5'>Dr. Kaszó Éva</h1>
+              <h1 className='h1 pt-3 pb-5'>Dr. Kaszó Éva</h1>
 
               <p className='max-w-[470px] leading-10'>
                 Célom az, hogy lehetőséget adjak a felek számára problémáik megoldásánál a békés megegyezésre, elkerülve ezzel a hosszas jogi eljárást.

@@ -1,5 +1,19 @@
 h1, .h1 {
     font-family: 'BwVivant Medium';
+    font-size: 60px;
+    font-weight: 500;
+    color: var(--purple-text);
+    line-height: 72px; /* 120% */
+    letter-spacing: 6px;
+
+    @media (max-width: 768px) {
+        font-size: 40px;
+        letter-spacing: 4px;
+    }
+}
+
+h2, .h2 {
+    font-family: 'BwVivant Medium';
     color: var(--purple-text);
     font-size: 40px;
     font-style: normal;
@@ -16,7 +30,11 @@ h1, .h1 {
     }
 }
 
-h2, .h2 {
+a {
+    margin: 0;
+}
+
+h3, .h3 {
     color: var(--purple-text);
     font-family: 'BwVivant Medium';
     font-size: 24px;
@@ -24,24 +42,6 @@ h2, .h2 {
     font-weight: 500;
     line-height: 32px; /* 166.667% */
     margin-bottom: 20px;
-}
-
-a {
-    margin: 0;
-}
-
-.display {
-    font-family: 'BwVivant Medium';
-    font-size: 60px;
-    font-weight: 500;
-    color: var(--purple-text);
-    line-height: 72px; /* 120% */
-    letter-spacing: 6px;
-
-    @media (max-width: 768px) {
-        font-size: 40px;
-        letter-spacing: 4px;
-    }
 }
 
 p {

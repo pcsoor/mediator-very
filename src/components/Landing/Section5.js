@@ -4,9 +4,9 @@ const Section5 = () => {
   return (
     <div className='bg--primary'>
         <div className='container mx-auto max-w-[1170px] px-5 py-10'>
-            <h1 className='h1 pb-14' id='valasi-mediacio'>
+            <h2 className='h2 pb-14' id='valasi-mediacio'>
                 Válási mediáció
-            </h1>
+            </h2>
 
             <p className='subtitle max-w-[700px]'>
                 A válási mediáció nemcsak a szorosan vett házasság felbontását jelenti, hanem minden olyan párkapcsolat megszüntetését, mely közös, írásban történő megállapodást igényel.
@@ -38,7 +38,7 @@ const Section5 = () => {
                 </div>
             </div>
 
-            <h2 className='h2 pt-16 pb-10'>Válási mediáció során rendezhető:</h2>
+            <h3 className='h3 pt-16 pb-10'>Válási mediáció során rendezhető:</h3>
 
             <div className='grid grid-cols-1 md:grid-cols-2'>
                 <p className='pb-7'>a tartásdíj</p>

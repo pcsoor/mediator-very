@@ -11,7 +11,7 @@ const Section1 = () => {
           </div>
 
           <div className='md:order-1 pt-5'>
-            <h1 className='h1 pb-10' id='mi-a-mediacio'>Mi a mediáció?</h1>
+            <h2 className='h2 pb-10' id='mi-a-mediacio'>Mi a mediáció?</h2>
 
             <p className='subtitle max-w-[500px]'>
               A mediáció alternatív vitarendezési, konfliktuskezelési módszer, melynek során 

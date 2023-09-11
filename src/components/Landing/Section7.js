@@ -11,13 +11,13 @@ const Section7 = () => {
                 </div>
 
                 <div className='max-w-[470px]'>
-                    <h2 className='h2 mb-10' id='oroklesi-vitak'>Öröklési viták</h2>
+                    <h3 className='h3 mb-10' id='oroklesi-vitak'>Öröklési viták</h3>
 
                     <p>
                         Az öröklési viták kialakulhatnak az örökhagyó életében az örökhagyó és az örökösök között, vagy az örökösök között is.
                     </p>
 
-                    <h2 className='h2 mt-10 lg:mt-[90px]'>Gyakoribb azonban az örökhagyó halálát követően az örökösök közötti vita főként a következő esetekben:</h2>
+                    <h3 className='h3 mt-10 lg:mt-[90px]'>Gyakoribb azonban az örökhagyó halálát követően az örökösök közötti vita főként a következő esetekben:</h3>
 
                     <p className='pb-8'>
                         végrendeletben foglaltak miatti vita
